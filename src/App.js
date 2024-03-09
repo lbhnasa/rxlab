@@ -1,11 +1,12 @@
 import './App.css';
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar';
+import Routing from './components/Routing';
 
 function App() {
   return (
     <div >
-        <h1>Daniel's Pharmacy Practice Lab for BC pharmacist</h1>
         <NavBar/>
+        <Routing/>
     </div>
   );
 }

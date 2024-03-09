@@ -1,9 +1,40 @@
 *{
   font-family:"Markazi Text", "Karla", serif; ;
+  color: black;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
 }
 
 
 
-.nav-image {
-  max-height: 2rem;
+.nav-list {
+ color: white;
 }
+
+.nav-about {
+  float: right;
+  color: white;
+}
+
+  a:visited,
+  Link:visited,
+  a:link,
+  Link:link {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.references-link {
+color: black;
+}
+

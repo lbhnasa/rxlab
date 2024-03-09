@@ -5,7 +5,7 @@ function Resources() {
     return(
         <>
 
-        <ul >Daily tasks
+        <ul className="references-link">Daily tasks
             <Link to='https://mail.google.com/' target="_blank" >
                 G Mail
             </Link>

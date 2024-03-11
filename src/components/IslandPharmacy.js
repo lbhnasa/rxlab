@@ -1,9 +1,7 @@
-import React from 'react';
-
-function IslandPhamracy() {
+function IslandPharmacy() {
     return(
         <>
-        <h1>Team Island pharmacy</h1>
+        <h1>Hello Island pharmacy</h1>
         </>
     )
 }

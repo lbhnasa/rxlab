@@ -3,38 +3,74 @@
   color: black;
 }
 
-.nav-menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  color: white;
-}
-
-
-
-.nav-list {
- color: white;
-}
-
-.nav-about {
-  float: right;
-  color: white;
-}
-
-  a:visited,
+a:visited,
   Link:visited,
   a:link,
   Link:link {
   float: left;
   display: block;
   text-align: center;
-  padding: 20px 20px;
+  padding: 12px 12px;
   text-decoration: none;
 }
+
+.nav-top{
+  margin: 0px;
+}
+
+.nav-menu {
+  color: white;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.resources-header {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+   }
+
+.links {
+  background-color: rgb(151, 151, 151);
+  border-color: black;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.links:hover {
+  color:rgb(255, 0, 179);
+}
+
+.nav-list {
+  color: rgb(255, 255, 255);
+}
+
+.nav-list:hover {
+  color:rgb(255, 255, 0);
+}  
+
+  
 
 .references-link {
 color: black;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+  .nav-menu {
+    display: grid;
+  }}
+
+  .links {
+    align-items: center;
+    display: inline;
+  }

@@ -1,29 +1,17 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import DailyTask from './resources/DailyTask'
+import ClinicalReferences from './resources/ClinicalResources';
+import ImmsBC from './resources/ImmsBC';
 
 function Resources() {
     return(
         <>
+        <DailyTask/>
+        <ClinicalReferences/>
+        <ImmsBC/>
+        <br/>
 
-        <ul className="references-link">Daily tasks
-            <Link to='https://mail.google.com/' target="_blank" >
-                G Mail
-            </Link>
-            <li>mcKesson Canada</li>
-            <li>imperial distributor</li>
-            <li>medsask</li>
-        </ul>
-        <ul>
-            Clinical references
-            <li>SwitchRX</li>
-            <li>LexiCom</li>
-            <li>BCCDC part4</li>
-        </ul>
-        <ul >immsBC
-            <li>adm</li>
-            <li>clinician</li>
-            <li>weekly vaccine order</li>
-        </ul>
+
         <ul>Pharmacy supplies
             <li>Jones supply</li>
             </ul>

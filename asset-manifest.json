@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rxlab/static/css/main.6c13b605.css",
+    "main.css": "/rxlab/static/css/main.38c89b48.css",
     "main.js": "/rxlab/static/js/main.798acee3.js",
     "static/js/453.07635eae.chunk.js": "/rxlab/static/js/453.07635eae.chunk.js",
     "index.html": "/rxlab/index.html",
-    "main.6c13b605.css.map": "/rxlab/static/css/main.6c13b605.css.map",
+    "main.38c89b48.css.map": "/rxlab/static/css/main.38c89b48.css.map",
     "main.798acee3.js.map": "/rxlab/static/js/main.798acee3.js.map",
     "453.07635eae.chunk.js.map": "/rxlab/static/js/453.07635eae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c13b605.css",
+    "static/css/main.38c89b48.css",
     "static/js/main.798acee3.js"
   ]
 }
